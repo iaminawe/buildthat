@@ -37,7 +37,6 @@ projects[pdf_reader][version] = 1.0-rc4
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
-
 projects[transliteration][subdir] = contrib
 projects[transliteration][version] = 3.1
 
@@ -63,8 +62,8 @@ projects[crumbs][version] = 1.8
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
 
-projects[diff][subdir] = contrib
-projects[diff][version] = 3.2
+projects[ds][subdir] = contrib
+projects[ds][version] = 2.x-dev
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0
@@ -75,15 +74,6 @@ projects[features][version] = 1.0
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
 
-projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.x-dev
-
-projects[http_client][subdir] = contrib
-projects[http_client][version] = 2.4
-
-projects[flag][subdir] = "contrib"
-projects[flag][version] = 2.0
-
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
 
@@ -91,7 +81,7 @@ projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.2
+projects[jquery_update][version] = 2.x-dev
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
@@ -99,18 +89,8 @@ projects[libraries][version] = 2.0
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
-
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = 2.3
-
-;projects[mimemail][subdir] = contrib
-;projects[mimemail][version] = 1.0-alpha2
-
-;projects[multiform][subdir] = contrib
-;projects[multiform][version] = 1.0
-
-;projects[node_clone][subdir] = contrib
-;projects[node_clone][version] = 1.0-rc1
 
 projects[node_view_permissions][subdir] = contrib
 projects[node_view_permissions][version] = 1.0
@@ -127,8 +107,6 @@ projects[rules][version] = 2.2
 projects[special_menu_items][subdir] = contrib
 projects[special_menu_items][version] = 2.0
 
-projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0
 
 projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.1
@@ -148,20 +126,6 @@ projects[views][version] = 3.5
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
-
-
-;;;;;;;;;
-; Mapping
-;;;;;;;;;
-
-;;;;;;;;;
-; Data Import
-;;;;;;;;;
-
-;;;;;;;;;
-; Vizualisation
-;;;;;;;;;
-
 
 ;;;;;;;;;
 ; SEO Tools
@@ -201,6 +165,10 @@ projects[wysiwyg][patch][934976] = http://drupal.org/files/wysiwyg-one-format.93
 projects[wysiwyg_filter][subdir] = contrib
 projects[wysiwyg_filter][version] = 1.6-rc2
 
+projects[insert][subdir] = contrib
+projects[insert][version] = 1.2
+
+
 ;;;;;;;;;
 ; UX Enhancements
 ;;;;;;;;;
@@ -229,7 +197,21 @@ projects[shortcutperrole][version] = 1.1
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
 
+;;;;;;;;;
+; Dev
+;;;;;;;;;
 
+projects[devel][subdir] = contrib
+projects[devel][version] = 1.1
+
+projects[devel_themer][subdir] = contrib
+projects[devel_themer][version] = 1.x-dev
+
+projects[strongarm][subdir] = contrib
+projects[strongarm][version] = 2.0
+
+projects[diff][subdir] = contrib
+projects[diff][version] = 3.2
 
 ;;;;;;;;;
 ; Libraries
@@ -257,16 +239,10 @@ libraries[engage.itoggle][directory_name] = ""
 libraries[engage.itoggle][destination] = "libraries"
 
 
-
 ;;;;;;;;;
 ; Themes
 ;;;;;;;;;
 
-projects[adaptivetheme][type] = theme
-projects[adaptivetheme][version] = 3.1
+projects[omega][type] = theme
+projects[omega][version] = 4.x-dev
 
-projects[shiny][subdir] = contrib
-projects[shiny][version] = 1.0-rc5
-
-projects[omega][subdir] = contrib
-projects[omega][version] = 3.1
