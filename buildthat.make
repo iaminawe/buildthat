@@ -244,5 +244,5 @@ libraries[engage.itoggle][destination] = "libraries"
 ;;;;;;;;;
 
 projects[omega][type] = theme
-projects[omega][version] = 4.x-dev
+projects[omega][version] = 4.0-alpha7
 
