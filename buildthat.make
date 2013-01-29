@@ -74,8 +74,8 @@ projects[fences][version] = 1.0
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
 
-;projects[html5_tools][subdir] = contrib
-;projects[html5_tools][version] = 1.2
+projects[html5_tools][subdir] = contrib
+projects[html5_tools][version] = 1.2
 
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
@@ -103,9 +103,6 @@ projects[references_dialog][version] = 1.x-dev
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.2
-
-;projects[similarterms][subdir] = contrib 
-;projects[similarterms][version] = 2.3
 
 projects[special_menu_items][subdir] = contrib
 projects[special_menu_items][version] = 2.0
