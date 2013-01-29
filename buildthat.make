@@ -74,8 +74,8 @@ projects[fences][version] = 1.0
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
 
-projects[html5_tools][subdir] = contrib
-projects[html5_tools][version] = 1.2
+;projects[html5_tools][subdir] = contrib
+;projects[html5_tools][version] = 1.2
 
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
@@ -139,8 +139,8 @@ projects[google_analytics][version] = 1.3
 projects[google_analytics_reports][subdir] = contrib 
 projects[google_analytics_reports][version] = 3.x-dev
 
-projects[oauth][subdir] = contrib 
-projects[oauth][version] = 3.0
+;projects[oauth][subdir] = contrib 
+;projects[oauth][version] = 3.0
 
 ;;;;;;;;;
 ; External dependencies
