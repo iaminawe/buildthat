@@ -74,11 +74,11 @@ projects[fences][version] = 1.0
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
 
-projects[html5_tools][subdir] = contrib
-projects[html5_tools][version] = 1.2
+;projects[html5_tools][subdir] = contrib
+;projects[html5_tools][version] = 1.2
 
-projects[elements][subdir] = contrib
-projects[elements][version] = 1.2
+;projects[elements][subdir] = contrib
+;projects[elements][version] = 1.2
 
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
