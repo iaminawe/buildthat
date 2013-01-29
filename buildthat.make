@@ -139,8 +139,8 @@ projects[google_analytics][version] = 1.3
 projects[google_analytics_reports][subdir] = contrib 
 projects[google_analytics_reports][version] = 3.x-dev
 
-;projects[oauth][subdir] = contrib 
-;projects[oauth][version] = 3.0
+projects[oauth][subdir] = contrib 
+projects[oauth][version] = 3.0
 
 ;;;;;;;;;
 ; External dependencies
@@ -149,8 +149,8 @@ projects[google_analytics_reports][version] = 3.x-dev
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
-projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.0
+;projects[colorbox][subdir] = contrib
+;projects[colorbox][version] = 2.0
 
 projects[itoggle][subdir] = contrib
 projects[itoggle][version] = 2.3
@@ -224,10 +224,10 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
-libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
-libraries[colorbox][directory_name] = ""
-libraries[colorbox][destination] = "libraries"
+;libraries[colorbox][download][type] = "get"
+;libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
+;libraries[colorbox][directory_name] = ""
+;libraries[colorbox][destination] = "libraries"
 
 ; used by itoggle
 libraries[jquery.easing][download][type] = "get"
