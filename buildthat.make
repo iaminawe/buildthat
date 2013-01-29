@@ -8,9 +8,6 @@ api = 2
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
 
-projects[cck][subdir] = contrib
-projects[cck][version] = 2.x-dev
-
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
 
@@ -74,6 +71,12 @@ projects[features][version] = 1.0
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
 
+projects[fences][subdir] = contrib
+projects[fences][version] = 1.0
+
+projects[html5_tools][subdir] = contrib
+projects[html5_tools][version] = 1.2
+
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
 
@@ -107,7 +110,6 @@ projects[rules][version] = 2.2
 projects[special_menu_items][subdir] = contrib
 projects[special_menu_items][version] = 2.0
 
-
 projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.1
 
@@ -136,6 +138,9 @@ projects[google_analytics][version] = 1.3
 
 projects[google_analytics_reports][subdir] = contrib 
 projects[google_analytics_reports][version] = 3.x-dev
+
+projects[oauth][subdir] = contrib 
+projects[oauth][version] = 3.0
 
 ;;;;;;;;;
 ; External dependencies
@@ -204,9 +209,6 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.1
 
-projects[devel_themer][subdir] = contrib
-projects[devel_themer][version] = 1.x-dev
-
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
@@ -238,11 +240,9 @@ libraries[engage.itoggle][download][url] = "http://labs.engageinteractive.co.uk/
 libraries[engage.itoggle][directory_name] = ""
 libraries[engage.itoggle][destination] = "libraries"
 
-
 ;;;;;;;;;
 ; Themes
 ;;;;;;;;;
 
 projects[omega][type] = theme
 projects[omega][version] = 4.0-alpha7
-
