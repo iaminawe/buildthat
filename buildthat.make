@@ -225,6 +225,11 @@ projects[diff][version] = 3.2
 ; Libraries
 ;;;;;;;;;
 
+libraries[bootstrap][download][type] = "get"
+libraries[bootstrap][download][url] = "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
+libraries[bootstrap][directory_name] = "bootstrap"
+libraries[bootstrap][destination] = "libraries"
+
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
@@ -262,4 +267,9 @@ libraries[leaflet_markercluster][destination] = "libraries"
 
 projects[omega][type] = theme
 projects[omega][version] = 4.0-alpha7
+
+projects[tweme][type] = theme
+projects[tweme][version] = 1.0-beta2
+projects[tweme][patch][934976] = http://drupal.org/files/1873082-drush_support-jquery_update-override.patch
+
 
