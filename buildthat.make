@@ -208,6 +208,9 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 projects[omega_tools][subdir] = contrib
 projects[omega_tools][version] = 4.x-dev
 
+projects[toolbar_admin_menu][subdir] = contrib
+projects[toolbar_admin_menu][version] = 1.0
+
 ;;;;;;;;;
 ; Dev
 ;;;;;;;;;
