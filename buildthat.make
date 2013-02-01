@@ -230,10 +230,10 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
-;libraries[colorbox][download][type] = "get"
-;libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
-;libraries[colorbox][directory_name] = ""
-;libraries[colorbox][destination] = "libraries"
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
+libraries[colorbox][directory_name] = ""
+libraries[colorbox][destination] = "libraries"
 
 ; used by itoggle
 libraries[jquery.easing][download][type] = "get"
@@ -245,6 +245,16 @@ libraries[engage.itoggle][download][type] = "get"
 libraries[engage.itoggle][download][url] = "http://labs.engageinteractive.co.uk/itoggle/engage.itoggle.zip"
 libraries[engage.itoggle][directory_name] = ""
 libraries[engage.itoggle][destination] = "libraries"
+
+libraries[leaflet][download][type] = "get"
+libraries[leaflet][download][url] = "https://github.com/CloudMade/Leaflet/zipball/v0.3.1"
+libraries[leaflet][directory_name] = "leaflet"
+libraries[leaflet][destination] = "libraries"
+
+libraries[leaflet_markercluster][download][type] = "git"
+libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster"
+libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
+libraries[leaflet_markercluster][destination] = "libraries"
 
 ;;;;;;;;;
 ; Themes
