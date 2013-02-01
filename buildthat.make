@@ -268,8 +268,16 @@ libraries[leaflet_markercluster][destination] = "libraries"
 projects[omega][type] = theme
 projects[omega][version] = 4.0-alpha7
 
-projects[tweme][type] = theme
-projects[tweme][version] = 1.0-beta2
-projects[tweme][patch][934976] = http://drupal.org/files/1873082-drush_support-jquery_update-override.patch
+;patch fails currently on d.o download
+;projects[tweme][type] = theme
+;projects[tweme][version] = 1.0-beta2
+;projects[tweme][patch][934976] = http://drupal.org/files/1873082-drush_support-jquery_update-override.patch
+
+
+projects[tweme-theme][type] = theme
+projects[tweme-theme][subdir] = custom
+projects[tweme-theme][download][type] = "git"
+projects[tweme-theme][download][url] = "https://github.com/iaminawe/tweme-theme.git"
+
 
 
