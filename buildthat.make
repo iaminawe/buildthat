@@ -126,6 +126,9 @@ projects[token_tweaks][version] = 1.x-dev
 projects[uuid_features][subdir] = contrib
 projects[uuid_features][version] = 1.0-alpha3
 
+projects[uuid][subdir] = contrib
+projects[uuid][version] = 1.0-alpha3
+
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
 
