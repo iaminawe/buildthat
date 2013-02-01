@@ -275,7 +275,6 @@ projects[omega][version] = 4.0-alpha7
 
 
 projects[tweme-theme][type] = theme
-projects[tweme-theme][subdir] = custom
 projects[tweme-theme][download][type] = "git"
 projects[tweme-theme][download][url] = "https://github.com/iaminawe/tweme-theme.git"
 
