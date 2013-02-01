@@ -44,6 +44,9 @@ projects[transliteration][version] = 3.1
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.4
 
+projects[bean][subdir] = contrib
+projects[bean][version] = 1.0-rc9
+
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 
@@ -201,6 +204,9 @@ projects[shortcutperrole][version] = 1.1
 
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
+
+projects[omega_tools][subdir] = contrib
+projects[omega_tools][version] = 4.x-dev
 
 ;;;;;;;;;
 ; Dev
