@@ -251,10 +251,10 @@ libraries[leaflet][download][url] = "https://github.com/CloudMade/Leaflet/zipbal
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][destination] = "libraries"
 
-;libraries[leaflet_markercluster][download][type] = "git"
-;libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster"
-;libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
-;libraries[leaflet_markercluster][destination] = "libraries"
+libraries[leaflet_markercluster][download][type] = "git"
+libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster"
+libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
+libraries[leaflet_markercluster][destination] = "libraries"
 
 ;;;;;;;;;
 ; Themes
