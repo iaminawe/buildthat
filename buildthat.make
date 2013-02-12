@@ -158,11 +158,11 @@ projects[oauth][version] = 3.0
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
-;projects[colorbox][subdir] = contrib
-;projects[colorbox][version] = 2.0
+projects[colorbox][subdir] = contrib
+projects[colorbox][version] = 2.0
 
-projects[itoggle][subdir] = contrib
-projects[itoggle][version] = 2.3
+;projects[itoggle][subdir] = contrib
+;projects[itoggle][version] = 2.3
 
 
 ;;;;;;;;;
@@ -250,15 +250,15 @@ libraries[colorbox][directory_name] = ""
 libraries[colorbox][destination] = "libraries"
 
 ; used by itoggle
-libraries[jquery.easing][download][type] = "get"
-libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
-libraries[jquery.easing][directory_name] = "jquery.easing"
-libraries[jquery.easing][destination] = "libraries"
+;libraries[jquery.easing][download][type] = "get"
+;libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
+;libraries[jquery.easing][directory_name] = "jquery.easing"
+;libraries[jquery.easing][destination] = "libraries"
 
-libraries[engage.itoggle][download][type] = "get"
-libraries[engage.itoggle][download][url] = "http://labs.engageinteractive.co.uk/itoggle/engage.itoggle.zip"
-libraries[engage.itoggle][directory_name] = ""
-libraries[engage.itoggle][destination] = "libraries"
+;libraries[engage.itoggle][download][type] = "get"
+;libraries[engage.itoggle][download][url] = "http://labs.engageinteractive.co.uk/itoggle/engage.itoggle.zip"
+;libraries[engage.itoggle][directory_name] = ""
+;libraries[engage.itoggle][destination] = "libraries"
 
 libraries[leaflet][download][type] = "get"
 libraries[leaflet][download][url] = "https://github.com/CloudMade/Leaflet/zipball/v0.3.1"
@@ -269,6 +269,11 @@ libraries[leaflet_markercluster][download][type] = "git"
 libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster"
 libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
+
+libraries[d3][download][type] = "get"
+libraries[d3][download][url] = "http://d3js.org/d3.v3.zip"
+libraries[d3][directory_name] = "d3"
+libraries[d3][destination] = "libraries"
 
 ;;;;;;;;;
 ; Themes
