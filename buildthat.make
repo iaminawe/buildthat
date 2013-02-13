@@ -135,6 +135,9 @@ projects[webform][version] = 3.18
 projects[views][subdir] = contrib
 projects[views][version] = 3.5
 
+projects[views_modes][subdir] = contrib
+projects[views_modes][version] = 1.x-dev
+
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 
