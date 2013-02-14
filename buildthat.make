@@ -138,6 +138,9 @@ projects[views][version] = 3.5
 projects[views_modes][subdir] = contrib
 projects[views_modes][version] = 1.x-dev
 
+projects[purl][subdir] = contrib
+projects[purl][version] = 1.0-beta1
+
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 
@@ -192,6 +195,9 @@ projects[insert][version] = 1.2
 
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc3
+
+projects[admin][subdir] = contrib
+projects[admin][version] = 2.0-beta3
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
