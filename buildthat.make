@@ -24,8 +24,8 @@ projects[field_group][version] = 1.1
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
 
-projects[pdf_reader][subdir] = contrib
-projects[pdf_reader][version] = 1.0-rc4
+;projects[pdf_reader][subdir] = contrib
+;projects[pdf_reader][version] = 1.0-rc4
 
 ;;;;;;;;;
 ; Path tools
@@ -252,7 +252,7 @@ projects[zen][type] = theme
 projects[zen][version] = 5.1
 
 projects[zenstrap][type] = theme
-projects[zenstrap][version] = 5.1
+projects[zenstrap][version] = 1.x-dev
 
 
 
