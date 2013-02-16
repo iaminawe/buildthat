@@ -139,7 +139,7 @@ projects[views_modes][subdir] = contrib
 projects[views_modes][version] = 1.x-dev
 
 projects[purl][subdir] = contrib
-projects[purl][version] = 1.0-beta1
+projects[purl][version] = 1.x-dev
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
@@ -239,6 +239,23 @@ projects[strongarm][version] = 2.0
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
+
+
+;;;;;;;;;
+; Themes
+;;;;;;;;;
+
+projects[omega][type] = theme
+projects[omega][version] = 4.0-alpha7
+
+projects[zen][type] = theme
+projects[zen][version] = 5.1
+
+projects[zenstrap][type] = theme
+projects[zenstrap][version] = 5.1
+
+
+
 ;;;;;;;;;
 ; Libraries
 ;;;;;;;;;
@@ -246,7 +263,7 @@ projects[diff][version] = 3.2
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
-libraries[bootstrap][destination] = "libraries"
+libraries[bootstrap][destination] = "themes/zenstrap"
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
@@ -283,23 +300,4 @@ libraries[d3][download][type] = "get"
 libraries[d3][download][url] = "http://d3js.org/d3.v3.zip"
 libraries[d3][directory_name] = "d3"
 libraries[d3][destination] = "libraries"
-
-;;;;;;;;;
-; Themes
-;;;;;;;;;
-
-projects[omega][type] = theme
-projects[omega][version] = 4.0-alpha7
-
-;patch fails currently on d.o download
-;projects[tweme][type] = theme
-;projects[tweme][version] = 1.0-beta2
-;projects[tweme][patch][934976] = http://drupal.org/files/1873082-drush_support-jquery_update-override.patch
-
-
-projects[tweme-theme][type] = theme
-projects[tweme-theme][download][type] = "git"
-projects[tweme-theme][download][url] = "https://github.com/iaminawe/tweme-theme.git"
-
-
 
