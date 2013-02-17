@@ -228,6 +228,9 @@ projects[plup][subdir] = "contrib"
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.8
 
+projects[views_responsive_grid][subdir] = contrib
+projects[views_responsive_grid][version] = 1.0
+
 projects[shortcutperrole][subdir] = contrib
 projects[shortcutperrole][version] = 1.1
 
