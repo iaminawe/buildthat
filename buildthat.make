@@ -8,6 +8,9 @@ api = 2
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
 
+projects[auto_nodetitle][version] = "1.0"
+projects[auto_nodetitle][subdir] = "contrib"
+
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
 
@@ -56,6 +59,9 @@ projects[calendar][version] = 3.4
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta6
 
+projects[chosen][subdir] = contrib
+projects[chosen][version] = 2.0-alpha1
+
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.8
 
@@ -67,9 +73,6 @@ projects[ds][version] = 2.x-dev
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.x-dev
-
-projects[features][subdir] = contrib
-projects[features][version] = 1.0
 
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
@@ -148,14 +151,17 @@ projects[views_bulk_operations][version] = 3.1
 ; SEO Tools
 ;;;;;;;;;
 
-projects[google_analytics][subdir] = contrib 
+projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
 
-projects[google_analytics_reports][subdir] = contrib 
+projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.x-dev
 
-projects[oauth][subdir] = contrib 
+projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.0
+
+projects[robotstxt][version] = "1.x-dev"
+projects[robotstxt][subdir] = "contrib"
 
 ;;;;;;;;;
 ; External dependencies
@@ -167,9 +173,6 @@ projects[chart][version] = 1.x-dev
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 2.0
 
-;projects[itoggle][subdir] = contrib
-;projects[itoggle][version] = 2.3
-
 
 ;;;;;;;;;
 ; Text editor
@@ -178,16 +181,15 @@ projects[colorbox][version] = 2.0
 projects[ckeditor_link][subdir] = contrib
 projects[ckeditor_link][version] = 2.2
 
+projects[insert][subdir] = contrib
+projects[insert][version] = 1.2
+
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 projects[wysiwyg][patch][934976] = http://drupal.org/files/wysiwyg-one-format.934976.23.patch
 
 projects[wysiwyg_filter][subdir] = contrib
 projects[wysiwyg_filter][version] = 1.6-rc2
-
-projects[insert][subdir] = contrib
-projects[insert][version] = 1.2
-
 
 ;;;;;;;;;
 ; UX Enhancements
@@ -196,8 +198,8 @@ projects[insert][version] = 1.2
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc3
 
-projects[admin][subdir] = contrib
-projects[admin][version] = 2.0-beta3
+projects[admin_views][subdir] = contrib
+projects[admin_views][version] = 1.0
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
@@ -208,8 +210,20 @@ projects[backports][version] = 1.0-alpha1
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
 
+projects[fpa][version] = "2.2"
+projects[fpa][subdir] = "contrib"
+
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.7
+
+projects[nocurrent_pass][version] = "1.0"
+projects[nocurrent_pass][subdir] = "contrib"
+
+projects[omega_tools][subdir] = contrib
+projects[omega_tools][version] = 4.x-dev
+
+projects[plup][version] = "1.0-alpha1"
+projects[plup][subdir] = "contrib"
 
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.8
@@ -219,9 +233,6 @@ projects[shortcutperrole][version] = 1.1
 
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
-
-projects[omega_tools][subdir] = contrib
-projects[omega_tools][version] = 4.x-dev
 
 projects[toolbar_admin_menu][subdir] = contrib
 projects[toolbar_admin_menu][version] = 1.0
@@ -233,12 +244,11 @@ projects[toolbar_admin_menu][version] = 1.0
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.1
 
+projects[features][subdir] = contrib
+projects[features][version] = 2.x-dev
+
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
-
-projects[diff][subdir] = contrib
-projects[diff][version] = 3.2
-
 
 
 ;;;;;;;;;
@@ -259,6 +269,12 @@ projects[zenstrap][version] = 1.x-dev
 ;;;;;;;;;
 ; Libraries
 ;;;;;;;;;
+
+libraries[foundation][directory_name] = "foundation"
+libraries[foundation][type] = "library"
+libraries[foundation][destination] = "libraries"
+libraries[foundation][download][type] = "get"
+libraries[foundation][download][url] = "https://github.com/zurb/foundation/archive/master.zip"
 
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
@@ -290,3 +306,31 @@ libraries[d3][download][url] = "http://d3js.org/d3.v3.zip"
 libraries[d3][directory_name] = "d3"
 libraries[d3][destination] = "libraries"
 
+libraries[chosen][download][type] = "git"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen.git"
+libraries[chosen][directory_name] = "chosen"
+libraries[chosen][destination] = "libraries"
+
+libraries[plupload][directory_name] = "plupload"
+libraries[plupload][type] = "library"
+libraries[plupload][destination] = "libraries"
+libraries[plupload][download][type] = "get"
+libraries[plupload][download][url] = "http://plupload.com/downloads/plupload_1_5_5.zip"
+
+libraries[fitvids][directory_name] = "fitvids"
+libraries[fitvids][type] = "library"
+libraries[fitvids][destination] = "libraries"
+libraries[fitvids][download][type] = "get"
+libraries[fitvids][download][url] = "https://github.com/davatron5000/FitVids.js/archive/master.zip"
+
+libraries[flexslider][directory_name] = "flexslider"
+libraries[flexslider][type] = "library"
+libraries[flexslider][destination] = "libraries"
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
+
+libraries[modernizr][directory_name] = "modernizr"
+libraries[modernizr][type] = "library"
+libraries[modernizr][destination] = "libraries"
+libraries[modernizr][download][type] = "get"
+libraries[modernizr][download][url] = "http://drupal.org/files/modernizr.zip"
