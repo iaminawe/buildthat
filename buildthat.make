@@ -60,13 +60,13 @@ projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.8
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.2
+projects[ctools][version] = 1.x-dev
 
 projects[ds][subdir] = contrib
 projects[ds][version] = 2.x-dev
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0
+projects[entity][version] = 1.x-dev
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
