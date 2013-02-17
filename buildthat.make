@@ -275,19 +275,8 @@ libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zi
 libraries[colorbox][directory_name] = ""
 libraries[colorbox][destination] = "libraries"
 
-; used by itoggle
-;libraries[jquery.easing][download][type] = "get"
-;libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
-;libraries[jquery.easing][directory_name] = "jquery.easing"
-;libraries[jquery.easing][destination] = "libraries"
-
-;libraries[engage.itoggle][download][type] = "get"
-;libraries[engage.itoggle][download][url] = "http://labs.engageinteractive.co.uk/itoggle/engage.itoggle.zip"
-;libraries[engage.itoggle][directory_name] = ""
-;libraries[engage.itoggle][destination] = "libraries"
-
-libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "https://github.com/CloudMade/Leaflet/zipball/v0.3.1"
+libraries[leaflet][download][type] = "git"
+libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][destination] = "libraries"
 
