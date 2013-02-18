@@ -14,6 +14,9 @@ projects[auto_nodetitle][subdir] = "contrib"
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
 
+projects[diff][subdir] = contrib
+projects[diff][version] = 3.2
+
 projects[email][subdir] = contrib
 projects[email][version] = 1.2
 
