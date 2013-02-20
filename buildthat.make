@@ -30,8 +30,6 @@ projects[field_group][version] = 1.1
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
 
-;projects[pdf_reader][subdir] = contrib
-;projects[pdf_reader][version] = 1.0-rc4
 
 ;;;;;;;;;
 ; Path tools
@@ -150,6 +148,8 @@ projects[purl][version] = 1.x-dev
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 
+
+
 ;;;;;;;;;
 ; SEO Tools
 ;;;;;;;;;
@@ -256,6 +256,8 @@ projects[features][version] = 2.x-dev
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
+projects[styleguide][subdir] = contrib
+projects[styleguide][version] = 1.0
 
 ;;;;;;;;;
 ; Themes
@@ -269,8 +271,6 @@ projects[zen][version] = 5.1
 
 projects[zenstrap][type] = theme
 projects[zenstrap][version] = 1.x-dev
-
-
 
 ;;;;;;;;;
 ; Libraries
