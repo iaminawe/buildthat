@@ -87,6 +87,9 @@ projects[fences][version] = 1.0
 ;projects[elements][subdir] = contrib
 ;projects[elements][version] = 1.2
 
+projects[eva][subdir] = contrib
+projects[eva][version] = 1.2
+
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
 
