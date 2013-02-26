@@ -142,6 +142,12 @@ projects[webform][version] = 3.18
 projects[views][subdir] = contrib
 projects[views][version] = 3.5
 
+projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][version] = 3.x-dev
+
+projects[views_slideshow_liquidcarousel][subdir] = contrib
+projects[views_slideshow_liquidcarousel][version] = 2.x-dev
+
 projects[views_modes][subdir] = contrib
 projects[views_modes][version] = 1.x-dev
 
@@ -343,3 +349,9 @@ libraries[modernizr][type] = "library"
 libraries[modernizr][destination] = "libraries"
 libraries[modernizr][download][type] = "get"
 libraries[modernizr][download][url] = "http://drupal.org/files/modernizr.zip"
+
+libraries[liquidcarousel][directory_name] = "liquidcarousel"
+libraries[liquidcarousel][type] = "library"
+libraries[liquidcarousel][destination] = "libraries"
+libraries[liquidcarousel][download][type] = "get"
+libraries[liquidcarousel][download][url] = "http://www.nikolakis.net/liquidcarousel/liquidcarousel.zip"
