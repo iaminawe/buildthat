@@ -75,6 +75,9 @@ projects[ds][version] = 2.x-dev
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.x-dev
 
+projects[fontyourface][subdir] = contrib
+projects[fontyourface][version] = 2.7
+
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
 
