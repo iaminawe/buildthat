@@ -63,6 +63,9 @@ projects[context][version] = 3.0-beta6
 projects[chosen][subdir] = contrib
 projects[chosen][version] = 2.0-alpha1
 
+projects[configuration][subdir] = contrib
+projects[configuration][version] = 2.x-dev
+
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.8
 
