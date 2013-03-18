@@ -194,8 +194,8 @@ projects[robotstxt][subdir] = "contrib"
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
-projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.0
+;projects[colorbox][subdir] = contrib
+;projects[colorbox][version] = 2.0
 
 
 ;;;;;;;;;
@@ -318,10 +318,10 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
-libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
-libraries[colorbox][directory_name] = ""
-libraries[colorbox][destination] = "libraries"
+;libraries[colorbox][download][type] = "get"
+;libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
+;libraries[colorbox][directory_name] = ""
+;libraries[colorbox][destination] = "libraries"
 
 libraries[leaflet][download][type] = "git"
 libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet"
