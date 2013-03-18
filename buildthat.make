@@ -27,6 +27,12 @@ projects[entityreference][patch][1699378] = http://drupal.org/files/view-argumen
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.1
 
+projects[field_collection][subdir] = contrib
+projects[field_collection][version] = 1.0-beta5
+
+projects[field_collection_views][subdir] = contrib
+projects[field_collection_views][version] = 1.0-beta3
+
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
 
@@ -225,6 +231,9 @@ projects[advanced_help][version] = 1.0
 projects[backports][subdir] = contrib
 projects[backports][version] = 1.0-alpha1
 
+projects[block_class][subdir] = contrib
+projects[block_class][version] = 1.2
+
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
 
@@ -257,6 +266,8 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 
 projects[toolbar_admin_menu][subdir] = contrib
 projects[toolbar_admin_menu][version] = 1.0
+
+
 
 ;;;;;;;;;
 ; Dev
