@@ -234,6 +234,9 @@ projects[backports][version] = 1.0-alpha1
 projects[block_class][subdir] = contrib
 projects[block_class][version] = 1.2
 
+projects[menu_attributes][subdir] = contrib
+projects[menu_attributes][version] = 1.0-rc2
+
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
 
@@ -337,6 +340,11 @@ libraries[d3][download][type] = "get"
 libraries[d3][download][url] = "http://d3js.org/d3.v3.zip"
 libraries[d3][directory_name] = "d3"
 libraries[d3][destination] = "libraries"
+
+libraries[nvd3][download][type] = "git"
+libraries[nvd3][download][url] = "https://github.com/novus/nvd3.git"
+libraries[nvd3][directory_name] = "nvd3"
+libraries[nvd3][destination] = "libraries"
 
 libraries[chosen][download][type] = "git"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen.git"
