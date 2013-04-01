@@ -288,6 +288,9 @@ projects[strongarm][version] = 2.0
 projects[styleguide][subdir] = contrib
 projects[styleguide][version] = 1.0
 
+projects[stage_file_proxy][subdir] = contrib
+projects[stage_file_proxy][version] = 1.3
+
 ;;;;;;;;;
 ; Themes
 ;;;;;;;;;
