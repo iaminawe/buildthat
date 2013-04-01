@@ -305,11 +305,11 @@ projects[zenstrap][version] = 1.x-dev
 ; Libraries
 ;;;;;;;;;
 
-libraries[foundation][directory_name] = "foundation"
-libraries[foundation][type] = "library"
-libraries[foundation][destination] = "libraries"
-libraries[foundation][download][type] = "get"
-libraries[foundation][download][url] = "https://github.com/zurb/foundation/archive/master.zip"
+;libraries[foundation][directory_name] = "foundation"
+;libraries[foundation][type] = "library"
+;libraries[foundation][destination] = "libraries"
+;libraries[foundation][download][type] = "get"
+;libraries[foundation][download][url] = "https://github.com/zurb/foundation/archive/master.zip"
 
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
