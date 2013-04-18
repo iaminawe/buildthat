@@ -194,8 +194,8 @@ projects[robotstxt][subdir] = "contrib"
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
-;projects[colorbox][subdir] = contrib
-;projects[colorbox][version] = 2.0
+projects[colorbox][subdir] = contrib
+projects[colorbox][version] = 2.0
 
 
 ;;;;;;;;;
@@ -324,10 +324,10 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
-;libraries[colorbox][download][type] = "get"
-;libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
-;libraries[colorbox][directory_name] = ""
-;libraries[colorbox][destination] = "libraries"
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
+libraries[colorbox][directory_name] = ""
+libraries[colorbox][destination] = "libraries"
 
 libraries[leaflet][download][type] = "git"
 libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet"
@@ -353,6 +353,16 @@ libraries[chosen][download][type] = "git"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen.git"
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
+
+;libraries[leaflet_label][download][type] = "git"
+;libraries[leaflet_label][download][url] = "https://github.com/Leaflet/Leaflet.label.git"
+;libraries[leaflet_label][directory_name] = "leaflet_label"
+;libraries[chosen][destination] = "libraries"
+
+;libraries[leaflet_hash][download][type] = "git"
+;libraries[leaflet_hash][download][url] = "https://github.com/mlevans/leaflet-hash.git"
+;libraries[leaflet_hash][directory_name] = "leaflet_hash"
+;libraries[chosen][destination] = "libraries"
 
 libraries[plupload][directory_name] = "plupload"
 libraries[plupload][type] = "library"
