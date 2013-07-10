@@ -102,6 +102,9 @@ projects[fences][version] = 1.0
 projects[eva][subdir] = contrib
 projects[eva][version] = 1.2
 
+projects[entitycache][subdir] = contrib
+projects[entitycache][version] = 1.x-dev
+
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
 
@@ -126,8 +129,14 @@ projects[node_view_permissions][version] = 1.0
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
 
+projects[responsive_navigation][subdir] = contrib
+projects[responsive_navigation][version] = 1.x-dev
+
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.2
+
+projects[field_sql_norevisions][subdir] = contrib
+projects[field_sql_norevisions][version] = 1.0
 
 projects[special_menu_items][subdir] = contrib
 projects[special_menu_items][version] = 2.0
@@ -154,6 +163,8 @@ projects[webform][version] = 3.18
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
+projects[views][patch][1633492] = http://drupalcode.org/project/field_sql_norevisions.git/blob_plain/a695418359edb085f982bcc638da8b2c512c4b5d:/views.sql_norevisions.patch
+
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.x-dev
 
@@ -162,6 +173,9 @@ projects[views_slideshow_liquidcarousel][version] = 2.x-dev
 
 projects[views_modes][subdir] = contrib
 projects[views_modes][version] = 1.x-dev
+
+projects[views_content_cache][subdir] = contrib
+projects[views_content_cache][version] = 3.0-alpha2
 
 projects[purl][subdir] = contrib
 projects[purl][version] = 1.x-dev
@@ -186,6 +200,8 @@ projects[oauth][version] = 3.0
 
 projects[robotstxt][version] = "1.x-dev"
 projects[robotstxt][subdir] = "contrib"
+
+
 
 ;;;;;;;;;
 ; External dependencies
@@ -393,3 +409,9 @@ libraries[liquidcarousel][type] = "library"
 libraries[liquidcarousel][destination] = "libraries"
 libraries[liquidcarousel][download][type] = "get"
 libraries[liquidcarousel][download][url] = "http://www.nikolakis.net/liquidcarousel/liquidcarousel.zip"
+
+libraries[responsive_navigation][directory_name] = "responsive_navigation"
+libraries[responsive_navigation][type] = "library"
+libraries[responsive_navigation][destination] = "libraries"
+libraries[responsive_navigation][download][type] = "get"
+libraries[responsive_navigation][download][url] = "https://github.com/viljamis/responsive-nav.js/archive/master.zip"
