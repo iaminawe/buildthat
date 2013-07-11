@@ -130,7 +130,9 @@ projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
 
 projects[responsive_navigation][subdir] = contrib
-projects[responsive_navigation][version] = 1.0
+projects[responsive_navigation][version] = 1.x-dev
+projects[responsive_navigation][patch][2018335] = https://drupal.org/files/include-once-2018335-3.patch
+
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.2
