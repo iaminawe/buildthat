@@ -287,7 +287,6 @@ projects[toolbar_admin_menu][subdir] = contrib
 projects[toolbar_admin_menu][version] = 1.0
 
 
-
 ;;;;;;;;;
 ; Dev
 ;;;;;;;;;
@@ -369,6 +368,8 @@ libraries[chosen][download][type] = "git"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen.git"
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
+projects[chosen][patch][2021639] = https://drupal.org/files/2021639-chosen-public-directory-1.patch
+
 
 ;libraries[leaflet_label][download][type] = "git"
 ;libraries[leaflet_label][download][url] = "https://github.com/Leaflet/Leaflet.label.git"
