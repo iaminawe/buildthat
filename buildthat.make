@@ -130,7 +130,7 @@ projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
 
 projects[responsive_navigation][subdir] = contrib
-projects[responsive_navigation][version] = 1.x-dev
+projects[responsive_navigation][version] = 1.0
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.2
