@@ -68,6 +68,7 @@ projects[context][version] = 3.0-beta6
 
 projects[chosen][subdir] = contrib
 projects[chosen][version] = 2.0-alpha1
+projects[chosen][patch][2021639] = https://drupal.org/files/2021639-chosen-public-directory-1.patch
 
 projects[configuration][subdir] = contrib
 projects[configuration][version] = 2.x-dev
@@ -368,10 +369,9 @@ libraries[nvd3][destination] = "libraries"
 
 libraries[chosen][download][type] = "git"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen.git"
+libraries[chosen][download][tag] = "v0.9.15"
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
-projects[chosen][patch][2021639] = https://drupal.org/files/2021639-chosen-public-directory-1.patch
-
 
 ;libraries[leaflet_label][download][type] = "git"
 ;libraries[leaflet_label][download][url] = "https://github.com/Leaflet/Leaflet.label.git"
