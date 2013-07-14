@@ -116,7 +116,7 @@ projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.x-dev
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.0
+projects[libraries][version] = 2.x-dev
 
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
@@ -347,8 +347,8 @@ libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/arch
 libraries[colorbox][directory_name] = ""
 libraries[colorbox][destination] = "libraries"
 
-libraries[leaflet][download][type] = "git"
-libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet"
+libraries[leaflet][download][type] = "get"
+libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.6.2.zip"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][destination] = "libraries"
 
@@ -367,9 +367,8 @@ libraries[nvd3][download][url] = "https://github.com/novus/nvd3.git"
 libraries[nvd3][directory_name] = "nvd3"
 libraries[nvd3][destination] = "libraries"
 
-libraries[chosen][download][type] = "git"
-libraries[chosen][download][url] = "https://github.com/harvesthq/chosen.git"
-libraries[chosen][download][tag] = "v0.9.15"
+libraries[chosen][download][type] = "get"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/v0.10.1.zip"
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
 
