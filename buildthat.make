@@ -164,9 +164,9 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.5
 
-projects[views][patch][1633492] = http://drupalcode.org/project/field_sql_norevisions.git/blob_plain/a695418359edb085f982bcc638da8b2c512c4b5d:/views.sql_norevisions.patch
+;projects[views][patch][1633492] = http://drupalcode.org/project/field_sql_norevisions.git/blob_plain/a695418359edb085f982bcc638da8b2c512c4b5d:/views.sql_norevisions.patch
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.x-dev
