@@ -8,8 +8,8 @@ api = 2
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
 
-projects[auto_nodetitle][version] = "1.0"
-projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][version] = 1.0
+projects[auto_nodetitle][subdir] = contrib
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -54,11 +54,14 @@ projects[transliteration][version] = 3.1
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.4
 
-projects[bean][subdir] = contrib
-projects[bean][version] = 1.0-rc9
-
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
+
+projects[better_exposed_filter][subdir] = contrib
+projects[better_exposed_filter][version] = 3.x-dev
+
+projects[better_exposed_filter][subdir] = contrib
+projects[better_exposed_filter][version] = 3.x-dev
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
@@ -69,9 +72,7 @@ projects[context][version] = 3.0-beta6
 projects[chosen][subdir] = contrib
 projects[chosen][version] = 2.0-alpha1
 projects[chosen][patch][2021639] = https://drupal.org/files/2021639-chosen-public-directory-1.patch
-
-projects[configuration][subdir] = contrib
-projects[configuration][version] = 2.x-dev
+projects[chosen][patch][2021640] = https://drupal.org/files/2021639-chosen-pin-library-v0.10.1.patch
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.8
@@ -179,6 +180,9 @@ projects[views_modes][version] = 1.x-dev
 
 projects[views_content_cache][subdir] = contrib
 projects[views_content_cache][version] = 3.0-alpha2
+
+projects[filter_harmonizer][subdir] = contrib
+projects[filter_harmonizer][version] = 1.0-beta3
 
 projects[purl][subdir] = contrib
 projects[purl][version] = 1.x-dev
