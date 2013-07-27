@@ -190,6 +190,12 @@ projects[purl][version] = 1.x-dev
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 
+projects[viewfield][subdir] = contrib
+projects[viewfield][version] = 2.0
+
+projects[views_field_view][subdir] = contrib
+projects[views_field_view][version] = 1.1
+
 
 
 ;;;;;;;;;
