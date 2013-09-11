@@ -191,7 +191,7 @@ projects[views_field_view][subdir] = contrib
 projects[views_field_view][version] = 1.1
 
 projects[views_php][subdir] = contrib
-projects[views_php][version] = 1.1
+projects[views_php][version] = 1.x-dev
 
 
 ;;;;;;;;;
