@@ -37,6 +37,7 @@ projects[link][subdir] = contrib
 projects[link][version] = 1.0
 
 
+
 ;;;;;;;;;
 ; Path tools
 ;;;;;;;;;
@@ -56,9 +57,6 @@ projects[backup_migrate][version] = 2.4
 
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
-
-projects[better_exposed_filter][subdir] = contrib
-projects[better_exposed_filter][version] = 3.x-dev
 
 projects[better_exposed_filter][subdir] = contrib
 projects[better_exposed_filter][version] = 3.x-dev
@@ -92,8 +90,6 @@ projects[fontyourface][version] = 2.7
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
 
-projects[fences][subdir] = contrib
-projects[fences][version] = 1.0
 
 ;projects[html5_tools][subdir] = contrib
 ;projects[html5_tools][version] = 1.2
@@ -131,10 +127,8 @@ projects[node_view_permissions][version] = 1.0
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
 
-;projects[responsive_navigation][subdir] = contrib
-;projects[responsive_navigation][version] = 1.x-dev
-;projects[responsive_navigation][patch][2018335] = https://drupal.org/files/include-once-2018335-3.patch
-
+projects[responsive_menus][subdir] = contrib
+projects[responsive_menus][version] = 1.x-dev
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.2
@@ -196,6 +190,8 @@ projects[viewfield][version] = 2.0
 projects[views_field_view][subdir] = contrib
 projects[views_field_view][version] = 1.1
 
+projects[views_php][subdir] = contrib
+projects[views_php][version] = 1.1
 
 
 ;;;;;;;;;
@@ -271,6 +267,9 @@ projects[ccl][version] = 1.5
 
 projects[fpa][version] = "2.2"
 projects[fpa][subdir] = "contrib"
+
+projects[betterlogin][subdir] = contrib
+projects[betterlogin][version] = 1.1
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.7
@@ -423,8 +422,3 @@ libraries[liquidcarousel][destination] = "libraries"
 libraries[liquidcarousel][download][type] = "get"
 libraries[liquidcarousel][download][url] = "http://www.nikolakis.net/liquidcarousel/liquidcarousel.zip"
 
-libraries[responsive_navigation][directory_name] = "responsive_navigation"
-libraries[responsive_navigation][type] = "library"
-libraries[responsive_navigation][destination] = "libraries"
-libraries[responsive_navigation][download][type] = "get"
-libraries[responsive_navigation][download][url] = "https://github.com/viljamis/responsive-nav.js/archive/master.zip"
