@@ -68,9 +68,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta6
 
 projects[chosen][subdir] = contrib
-projects[chosen][version] = 2.0-alpha1
-projects[chosen][patch][2021639] = https://drupal.org/files/2021639-chosen-public-directory-1.patch
-projects[chosen][patch][2021640] = https://drupal.org/files/2021639-chosen-pin-library-v0.10.1.patch
+projects[chosen][version] = 2.0-alpha3
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.8
