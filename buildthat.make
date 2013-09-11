@@ -58,8 +58,8 @@ projects[backup_migrate][version] = 2.4
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 
-projects[better_exposed_filter][subdir] = contrib
-projects[better_exposed_filter][version] = 3.x-dev
+projects[better_exposed_filters][subdir] = contrib
+projects[better_exposed_filters][version] = 3.x-dev
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
@@ -267,9 +267,6 @@ projects[ccl][version] = 1.5
 
 projects[fpa][version] = "2.2"
 projects[fpa][subdir] = "contrib"
-
-projects[betterlogin][subdir] = contrib
-projects[betterlogin][version] = 1.1
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.7
