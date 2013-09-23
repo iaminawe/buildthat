@@ -302,8 +302,7 @@ projects[devel][subdir] = contrib
 projects[devel][version] = 1.1
 
 projects[features][subdir] = contrib
-projects[features][version] = 2.x-dev
-projects[features][patch][1153028]= https://drupal.org/files/1153028-component-choice-13.patch
+projects[features][version] = 2.0-rc3
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
