@@ -68,7 +68,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta6
 
 projects[chosen][subdir] = contrib
-projects[chosen][version] = 2.0-alpha3
+projects[chosen][version] = 2.0-alpha4
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.8
@@ -372,7 +372,7 @@ libraries[nvd3][directory_name] = "nvd3"
 libraries[nvd3][destination] = "libraries"
 
 libraries[chosen][download][type] = "get"
-libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/v0.10.1.zip"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.0.0/chosen_v1.0.0.zip"
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
 
