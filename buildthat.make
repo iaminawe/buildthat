@@ -337,7 +337,7 @@ projects[zenstrap][version] = 1.x-dev
 ;libraries[foundation][download][url] = "https://github.com/zurb/foundation/archive/master.zip"
 
 libraries[bootstrap][download][type] = "get"
-libraries[bootstrap][download][url] = "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
+libraries[bootstrap][download][url] = "http://getbootstrap.com/2.3.2/assets/bootstrap.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][destination] = "themes/zenstrap"
 
