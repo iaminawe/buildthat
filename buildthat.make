@@ -8,7 +8,7 @@ api = 2
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
 projects[addressfield][type] = module
-e
+
 projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][type] = module
@@ -45,7 +45,6 @@ projects[field_collection_views][type] = module
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
 projects[link][type] = module
-
 
 ;;;;;;;;;
 ; Path tools
@@ -220,7 +219,7 @@ projects[purl][type] = module
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
-projectsviews_bulk_operations][type] = module
+projects[views_bulk_operations][type] = module
 
 projects[viewfield][subdir] = contrib
 projects[viewfield][version] = 2.0
@@ -369,7 +368,7 @@ projects[devel][type] = module
 
 projects[features][subdir] = contrib
 projects[features][version] = 2.0
-projects[feartures][type] = module
+projects[features][type] = module
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
