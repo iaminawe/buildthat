@@ -8,7 +8,7 @@ api = 2
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
 projects[addressfield][type] = module
-
+e
 projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][type] = module
@@ -389,6 +389,7 @@ projects[stage_file_proxy][type] = module
 
 projects[omega][type] = theme
 projects[omega][version] = 4.0-alpha7
+projects[omega][type] = theme
 
 projects[zen][type] = theme
 projects[zen][version] = 5.1
