@@ -300,48 +300,63 @@ projects[admin_views][type] = module
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
+projects[advanced_help][type] = module
 
 projects[backports][subdir] = contrib
 projects[backports][version] = 1.0-alpha1
+projects[backports][type] = module
 
 projects[block_class][subdir] = contrib
 projects[block_class][version] = 1.2
+projects[block_class][type] = module
 
 projects[menu_attributes][subdir] = contrib
 projects[menu_attributes][version] = 1.0-rc2
+projects[menu_attributes][type] = module
 
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
+projects[ccl][type] = module
 
 projects[fpa][version] = "2.2"
 projects[fpa][subdir] = "contrib"
+projects[fpa][type] = module
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.7
+projects[module_filter][type] = module
 
 projects[nocurrent_pass][version] = "1.0"
 projects[nocurrent_pass][subdir] = "contrib"
+projects[nocurrent_pass][type] = module
 
 projects[omega_tools][subdir] = contrib
 projects[omega_tools][version] = 4.x-dev
+projects[omega_tools][type] = module
 
 projects[plup][version] = "1.0-alpha1"
 projects[plup][subdir] = "contrib"
+projects[plup][type] = module
 
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.8
+projects[options_element][type] = module
 
 projects[views_responsive_grid][subdir] = contrib
 projects[views_responsive_grid][version] = 1.0
+projects[views_responsive_grid][type] = module
 
 projects[shortcutperrole][subdir] = contrib
 projects[shortcutperrole][version] = 1.1
+projects[shortcutperrole][type] = module
 
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
+projects[simplified_menu_admin][type] = module
 
 projects[toolbar_admin_menu][subdir] = contrib
 projects[toolbar_admin_menu][version] = 1.0
+projects[toolbar_admin_menu][type] = module
 
 
 ;;;;;;;;;
@@ -350,18 +365,23 @@ projects[toolbar_admin_menu][version] = 1.0
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.1
+projects[devel][type] = module
 
 projects[features][subdir] = contrib
-projects[features][version] = 2.0-rc3
+projects[features][version] = 2.0
+projects[feartures][type] = module
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
+projects[strongarm][type] = module
 
 projects[styleguide][subdir] = contrib
 projects[styleguide][version] = 1.0
+projects[styleguide][type] = module
 
 projects[stage_file_proxy][subdir] = contrib
 projects[stage_file_proxy][version] = 1.3
+projects[stage_file_proxy][type] = module
 
 ;;;;;;;;;
 ; Themes
@@ -379,12 +399,6 @@ projects[zenstrap][version] = 1.x-dev
 ;;;;;;;;;
 ; Libraries
 ;;;;;;;;;
-
-;libraries[foundation][directory_name] = "foundation"
-;libraries[foundation][type] = "library"
-;libraries[foundation][destination] = "libraries"
-;libraries[foundation][download][type] = "get"
-;libraries[foundation][download][url] = "https://github.com/zurb/foundation/archive/master.zip"
 
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "http://getbootstrap.com/2.3.2/assets/bootstrap.zip"
