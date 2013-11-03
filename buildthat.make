@@ -23,7 +23,7 @@ projects[diff][type] = module
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.2
-projects[email[type] = module
+projects[email][type] = module
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.x-dev
