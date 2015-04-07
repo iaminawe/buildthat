@@ -69,8 +69,6 @@ projects[context][version] = 3.6
 
 projects[chosen][subdir] = contrib
 projects[chosen][version] = 2.0-beta4
-projects[chosen][patch][2021639] = https://drupal.org/files/2021639-chosen-public-directory-1.patch
-projects[chosen][patch][2021640] = https://drupal.org/files/2021639-chosen-pin-library-v0.10.1.patch
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.8
@@ -228,7 +226,6 @@ projects[insert][version] = 1.3
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
-projects[wysiwyg][patch][934976] = http://drupal.org/files/wysiwyg-one-format.934976.23.patch
 
 projects[wysiwyg_filter][subdir] = contrib
 projects[wysiwyg_filter][version] = 1.6-rc2
@@ -295,7 +292,6 @@ projects[devel][version] = 1.1
 
 projects[features][subdir] = contrib
 projects[features][version] = 2.4
-projects[features][patch][1153028]= https://drupal.org/files/1153028-component-choice-13.patch
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
