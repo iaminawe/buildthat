@@ -58,8 +58,8 @@ projects[backup_migrate][version] = 2.8
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 
-projects[better_exposed_filter][subdir] = contrib
-projects[better_exposed_filter][version] = 3.x-dev
+projects[better_exposed_filters][subdir] = contrib
+projects[better_exposed_filters][version] = 3.2
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
@@ -76,7 +76,7 @@ projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.8
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 7.x-1.7
+projects[ctools][version] = 1.7
 
 projects[ds][subdir] = contrib
 projects[ds][version] = 2.7
@@ -184,7 +184,7 @@ projects[views_field_view][subdir] = contrib
 projects[views_field_view][version] = 1.1
 
 projects[views_php][subdir] = contrib
-projects[views_php][version] = 1.1
+projects[views_php][version] = 1.0-alpha1
 
 
 ;;;;;;;;;
