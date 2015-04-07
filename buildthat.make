@@ -354,30 +354,10 @@ libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Le
 libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
 
-libraries[d3][download][type] = "get"
-libraries[d3][download][url] = "http://d3js.org/d3.v3.zip"
-libraries[d3][directory_name] = "d3"
-libraries[d3][destination] = "libraries"
-
-libraries[nvd3][download][type] = "git"
-libraries[nvd3][download][url] = "https://github.com/novus/nvd3.git"
-libraries[nvd3][directory_name] = "nvd3"
-libraries[nvd3][destination] = "libraries"
-
 libraries[chosen][download][type] = "get"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/v0.10.1.zip"
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
-
-;libraries[leaflet_label][download][type] = "git"
-;libraries[leaflet_label][download][url] = "https://github.com/Leaflet/Leaflet.label.git"
-;libraries[leaflet_label][directory_name] = "leaflet_label"
-;libraries[chosen][destination] = "libraries"
-
-;libraries[leaflet_hash][download][type] = "git"
-;libraries[leaflet_hash][download][url] = "https://github.com/mlevans/leaflet-hash.git"
-;libraries[leaflet_hash][directory_name] = "leaflet_hash"
-
 
 libraries[fitvids][directory_name] = "fitvids"
 libraries[fitvids][type] = "library"
